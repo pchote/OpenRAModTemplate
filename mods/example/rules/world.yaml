@@ -1,0 +1,40 @@
+^baseworld:
+	Inherits: ^palettes
+	AlwaysVisible:
+	ActorMap:
+	ScreenMap:
+	Selection:
+	LoadWidgetAtGameStart:
+	MusicPlaylist:
+	TerrainRenderer:
+	Faction@Random:
+		Name: Any
+		InternalName: Random
+		Side: Random
+		RandomFactionMembers: Example
+	Faction@Example:
+		Name: Example
+		InternalName: Example
+	MPStartUnits@Example:
+		Class: none
+		ClassName: Example
+		BaseActor: dummyactor
+		Factions: Example
+
+world:
+	Inherits: ^baseworld
+	SpawnMapActors:
+	SpawnMPUnits:
+	MPStartLocations:
+	CreateMPPlayers:
+	DebugVisualizations:
+	TerrainGeometryOverlay:
+	CustomTerrainDebugOverlay:
+
+editorworld:
+	Inherits: ^baseworld
+	EditorActorLayer:
+	EditorActionManager:
+	EditorCursorLayer:
+	EditorSelectionLayer:
+	TerrainGeometryOverlay:

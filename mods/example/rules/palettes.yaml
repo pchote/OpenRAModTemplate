@@ -1,0 +1,17 @@
+^palettes:
+	PaletteFromPng@cursor:
+		Name: cursor
+		Filename: bits/cursor.png
+		CursorPalette: true
+	PaletteFromPng@terrain:
+		Name: terrain
+		Filename: bits/terrain.png
+	PaletteFromGimpOrJascFile@palette:
+		Name: palette
+		Filename: bits/palette.pal
+	PaletteFromGimpOrJascFile@colorpicker:
+		Name: colorpicker
+		Filename: bits/palette.pal
+	OverlayPlayerColorPalette@player:
+		BasePalette: palette
+		RemapIndex: 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143
