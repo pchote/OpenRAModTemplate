@@ -1,6 +1,4 @@
 Cursors:
-	mouse.shp: terrain
+	bits/cursor.png: cursor
 		default:
 			Start: 0
-			X: -16
-			Y: -12

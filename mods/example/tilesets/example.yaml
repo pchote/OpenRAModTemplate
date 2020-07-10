@@ -1,6 +1,6 @@
 General:
-	Name: Template
-	Id: TEMPLATE
+	Name: Example
+	Id: EXAMPLE
 	EditorTemplateOrder: Terrain
 
 Terrain:
@@ -10,7 +10,7 @@ Terrain:
 Templates:
 	Template@255:
 		Id: 255
-		Images: blank.shp
+		Images: bits/terrain.png
 		Size: 1,1
 		Categories: Terrain
 		Tiles:

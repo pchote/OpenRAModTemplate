@@ -1,0 +1,30 @@
+MapFormat: 11
+
+RequiresMod: example
+
+Title: Example Shellmap
+
+Author: Example Mod Author
+
+Tileset: EXAMPLE
+
+MapSize: 34,34
+
+Bounds: 1,1,32,32
+
+Visibility: Shellmap
+
+Categories: Maps
+
+Players:
+	PlayerReference@Neutral:
+		Name: Neutral
+		OwnsWorld: True
+		NonCombatant: True
+		Faction: Random
+	PlayerReference@Creeps:
+		Name: Creeps
+		NonCombatant: True
+		Faction: Random
+
+Actors:

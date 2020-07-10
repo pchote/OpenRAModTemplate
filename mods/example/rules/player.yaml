@@ -1,0 +1,12 @@
+^baseplayer:
+	AlwaysVisible:
+	Shroud:
+
+player:
+	Inherits: ^baseplayer
+	DeveloperMode:
+	PlayerRadarTerrain:
+	PlayerStatistics:
+
+editorplayer:
+	Inherits: ^baseplayer

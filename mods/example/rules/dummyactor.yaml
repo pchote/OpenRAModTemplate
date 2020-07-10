@@ -1,0 +1,10 @@
+dummyactor:
+	AlwaysVisible:
+	BodyOrientation:
+	QuantizeFacingsFromSequence:
+	RenderSprites:
+	WithSpriteBody:
+	HitShape:
+	Immobile:
+	MapEditorData:
+		Categories: Actors

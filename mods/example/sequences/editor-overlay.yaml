@@ -1,0 +1,4 @@
+editor-overlay:
+	copy: bits/editor-overlay.png
+	paste: bits/editor-overlay.png
+		Start: 1

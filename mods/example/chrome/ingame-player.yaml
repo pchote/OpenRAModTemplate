@@ -1,0 +1,7 @@
+Container@PLAYER_WIDGETS:
+	Logic: MenuButtonsChromeLogic
+	Children:
+		LogicTicker@SIDEBAR_TICKER:
+		MenuButton@OPTIONS_BUTTON:
+			Key: escape
+			DisableWorldSounds: true

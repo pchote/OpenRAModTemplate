@@ -118,6 +118,8 @@ function Test-Command
 
 	Write-Host "Testing $modID mod MiniYAML..." -ForegroundColor Cyan
 	Invoke-Expression "$utilityPath $modID --check-yaml"
+	Write-Host "Testing $modID sprite sequences..." -ForegroundColor Cyan
+	Invoke-Expression "$utilityPath $modID --check-sequence-sprites"
 }
 
 function Check-Command
