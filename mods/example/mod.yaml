@@ -66,12 +66,18 @@ MapGrid:
 
 SpriteFormats: ShpTS
 
+VideoFormats:
+
+TerrainFormat: DefaultTerrain
+
 SpriteSequenceFormat: DefaultSpriteSequence
 
 ModelSequenceFormat: PlaceholderModelSequence
 
 GameSpeeds:
-	default:
-		Name: Normal
-		Timestep: 40
-		OrderLatency: 3
+	DefaultSpeed: default
+	Speeds:
+		default:
+			Name: Normal
+			Timestep: 40
+			OrderLatency: 3
